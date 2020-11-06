@@ -38,3 +38,23 @@ F00.
 END
 
 ```
+
+```
+function Dung(canvas3d,canvas2d){
+ var o={}
+ o.canvas3d=canvas3d
+ o.canvas2d=canvas2d
+ o.caller
+ o.str=''
+ o.add=d=>{o.str+=d+'\n';return o}
+ o.run=caller=>{o.caller=caller||new Function();return Dung_run(o)}
+ return o
+}
+function Dung_run(o){
+ //
+}
+
+
+```
+
+
